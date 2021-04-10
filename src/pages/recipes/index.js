@@ -4,12 +4,12 @@ import AllRecipes from '../../component/Recipes';
 import SEO from '../../component/SEO';
 
 const Recipes = () => (
+    <Layout>
+    <SEO title="Recipes"/>
     <main className="page">
-        <SEO title="Recipes"/>
-        <Layout>
-            <AllRecipes/>
-        </Layout>
+        <AllRecipes/>
     </main>
+    </Layout>
 );
 
 
